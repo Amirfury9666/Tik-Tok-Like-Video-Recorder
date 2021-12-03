@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        tools:background="@color/black">
+
+        <com.otaliastudios.cameraview.CameraView
+            android:id="@+id/camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:keepScreenOn="true"
+            app:cameraFacing="front"
+            app:cameraGesturePinch="zoom"
+            app:cameraGestureTap="autoFocus"
+            app:cameraMode="video">
+
+        </com.otaliastudios.cameraview.CameraView>
+
+        <com.fury.tiktoksample.customs.SegmentedProgressBar
+            android:id="@+id/segments"
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/closeButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="@dimen/margin20"
+                android:layout_marginTop="@dimen/margin20"
+                android:layout_marginEnd="@dimen/margin20"
+                android:layout_marginBottom="@dimen/margin20"
+                android:background="@color/transparent"
+                android:contentDescription="@string/close"
+                android:padding="@dimen/padding5"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_close" />
+
+            <TextView
+                style="@style/TextOnShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/addSoundHint"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textSize16"
+                app:drawableStartCompat="@drawable/drawable_music_tone"
+                app:drawableTint="@color/white" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/cameraActions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/margin20"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/filterButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="@dimen/margin16"
+                android:background="@drawable/shape_circle"
+                android:contentDescription="@string/filters"
+                android:padding="@dimen/padding10"
+                android:src="@drawable/ic_filter"
+                app:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/flashButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="@dimen/margin16"
+                android:background="@drawable/shape_circle"
+                android:contentDescription="@string/filters"
+                android:padding="@dimen/padding10"
+                android:src="@drawable/ic_flash" />
+
+            <ImageView
+                android:id="@+id/cameraSwitchButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="@dimen/margin16"
+                android:background="@drawable/shape_circle"
+                android:contentDescription="@string/filters"
+                android:padding="@dimen/padding10"
+                android:src="@drawable/ic_camera_switch"
+                app:tint="@color/white" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/filtersRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/recorderController"
+            android:layout_marginBottom="@dimen/margin10"
+            android:clipToPadding="false"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding5"
+            android:visibility="gone"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:visibility="visible" />
+
+
+        <LinearLayout
+            android:id="@+id/recorderController"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/galleryButton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_gallery" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/recordingButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_recording_off" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/submitButton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_submit_button" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

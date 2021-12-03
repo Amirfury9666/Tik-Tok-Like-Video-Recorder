@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="backgroundColor">#ECEFF1</color>
+
+    <color name="colorPrimary">#8E24AA</color>
+    <color name="colorPrimaryDark">#7E2397</color>
+    <color name="colorPrimaryLight">#F5F5F5</color>
+    <color name="colorOnPrimary">#8E24AA</color>
+    <color name="statusBarColor">@color/white</color>
+
+    <color name="colorOnSecondary">#8E24AA</color>
+
+    <color name="red">#d32f2f</color>
+
+    <color name="themeColor">#8E24AA</color>
+    <color name="themeColorDark">#7B1FA2</color>
+
+    <color name="gray">#9E9E9E</color>
+    <color name="gray50">#80BDBDBD</color>
+    <color name="grayLight">#EEEEEE</color>
+
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#616161</color>
+    <color name="textColorGray">#9E9E9E</color>
+
+    <color name="searchBgColor">#F1F1F2</color>
+    <color name="hintColor">#BDBDBD</color>
+    <color name="transparent50">#802F2F2F</color>
+</resources>

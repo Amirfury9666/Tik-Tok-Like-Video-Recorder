@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize9">9sp</dimen>
+    <dimen name="textSize11">11sp</dimen>
+    <dimen name="textSize12">12sp</dimen>
+    <dimen name="textSize13">13sp</dimen>
+    <dimen name="textSize14">14sp</dimen>
+    <dimen name="textSize16">16sp</dimen>
+    <dimen name="textSize18">18sp</dimen>
+    <dimen name="textSize21">21sp</dimen>
+    <dimen name="textSize24">24sp</dimen>
+
+
+
+    <dimen name="margin5">5dp</dimen>
+    <dimen name="margin8">8dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="margin20">20dp</dimen>
+    <dimen name="margin25">25dp</dimen>
+    <dimen name="margin30">30dp</dimen>
+    <dimen name="margin50">50dp</dimen>
+    <dimen name="margin40">40dp</dimen>
+
+    <dimen name="padding5">5dp</dimen>
+    <dimen name="padding8">8dp</dimen>
+    <dimen name="padding10">10dp</dimen>
+    <dimen name="padding12">12dp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="padding20">20dp</dimen>
+    <dimen name="padding30">30dp</dimen>
+    <dimen name="padding40">40dp</dimen>
+    <dimen name="padding25">25dp</dimen>
+
+    <dimen name="buttonHeight">45dp</dimen>
+
+    <dimen name="tabLayoutHeight">48dp</dimen>
+    <dimen name="bottomNavigationHeight">52dp</dimen>
+
+    <dimen name="buttonHeight35">35dp</dimen>
+    <dimen name="editTextHeight">40dip</dimen>
+    <dimen name="dividerHeight">0.5dp</dimen>
+    <dimen name="actionBarSize">52dip</dimen>
+    <dimen name="margin12">12dp</dimen>
+    <dimen name="margin60">60dp</dimen>
+    <dimen name="padding2">2dp</dimen>
+    <dimen name="padding3">3dp</dimen>
+    <dimen name="imageBorderWidth">1dp</dimen>
+    <dimen name="margin2">2dp</dimen>
+    <dimen name="searchHeight">45dp</dimen>
+    <dimen name="padding50">50dp</dimen>
+
+</resources>

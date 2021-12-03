@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TikTok Sample</string>
+    <string name="plsRecordVideo">Please record your video first to continue.</string>
+    <string name="progressTitle">Please wait…</string>
+    <string name="recorderInProgressError">To do this, please stop recording first.</string>
+    <string name="close">Close</string>
+    <string name="addSoundHint">Click to choose a song</string>
+    <string name="filters">Filters</string>
+    <string name="preview">Preview</string>
+</resources>
